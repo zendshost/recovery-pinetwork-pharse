@@ -1,0 +1,25 @@
+{
+  "name": "pi-recovery-kit",
+  "version": "1.0.0",
+  "description": "A utility to verify Pi Network passphrases from a list.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "verify-offline": "node verify-list.js",
+    "verify-api": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pi-network",
+    "recovery",
+    "passphrase",
+    "stellar"
+  ],
+  "author": "zendshost",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bip39": "^3.1.0",
+    "stellar-sdk": "^10.4.0"
+  }
+}
