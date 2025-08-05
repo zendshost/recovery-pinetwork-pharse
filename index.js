@@ -1,7 +1,4 @@
 // index.js
-// PERINGATAN: SKRIP INI TIDAK DIREKOMENDASIKAN KARENA LAMBAT DAN BERISIKO KEAMANAN.
-// GUNAKAN HANYA UNTUK TUJUAN DEMONSTRASI.
-
 const fs = require('fs');
 const path = require('path');
 const bip39 = require('bip39');
